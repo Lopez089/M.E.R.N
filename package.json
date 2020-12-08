@@ -7,7 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "webpack": "webpack --mode development --watch",
-    "eslint" : "eslint . --fix"
+    "eslint": "eslint . --fix"
   },
   "author": "",
   "license": "ISC",
@@ -22,12 +22,14 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.21.5",
     "nodemon": "^1.19.1",
+    "prettier": "^2.2.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "webpack": "^4.39.2",
