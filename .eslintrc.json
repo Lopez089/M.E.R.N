@@ -20,5 +20,6 @@
     ],
     "ignorePatterns": ["src/public/*.js", "webpack.config.js"],
     "rules": {
+        "no-console": "off"
     }
 }

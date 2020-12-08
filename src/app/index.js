@@ -1,10 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import { render } from "react-dom";
 
-class App extends Component {
-  render() {
-    return <h1>hola mundsfso</h1>;
-  }
-}
+const App = () => {
+  return (
+    <>
+      <h1>hola mundo</h1>
+    </>
+  );
+};
 
 render(<App />, document.getElementById("app"));
