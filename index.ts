@@ -1,6 +1,6 @@
-const express = require("express");
-const morgan = require("morgan");
-const path = require("path");
+import express from "express";
+import morgan from "morgan";
+import path from "path";
 
 // const { mongoose } = require('./database')
 
@@ -14,11 +14,11 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 // ROUTES
-app.use("/api", require("./src/routes/routes.js"));
+app.use("/api", require("./src/routes/routes.ts"));
 
 // STATIC FILES
 app.use(express.static(path.join(__dirname, "./src/public")));
 
 app.listen(app.get("port"), () => {
-  // console.log(`Server on port ${app.get("port")}`);
+  console.log(`Server on port ${app.get("port")}`);
 });

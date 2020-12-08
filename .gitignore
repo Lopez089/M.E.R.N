@@ -195,4 +195,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#buld
+./src/public/
+./build
+
 # End of https://www.toptal.com/developers/gitignore/api/node,linux,windows,macos,react
